@@ -1,0 +1,201 @@
+:root {
+  --primary-color:#000;
+  --secondary--color:#c5bbec;
+  --text--color:#fff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  background: var(--primary-color);
+  display: flex;
+}
+
+.container {
+  width: 100vw;
+  max-width: 120rem;
+  margin: auto;
+  padding: 0 1.5rem;
+}
+
+.gridWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 1.5rem;
+  max-height: 90vh;
+  grid-template-areas: "img-1 img-2 img-2 img-3 img-3" "img-1 img-4 img-4 img-5 img-6" "img-7 img-7 img-8 img-8 img-6";
+}
+
+.gridWrapper .pageLink {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.gridWrapper .pageLink::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.gridWrapper .pageLink:hover h3,
+.gridWrapper .pageLink:hover::before {
+  opacity: 1;
+}
+
+.img-1 {
+  grid-area: img-1;
+  min-height: 31.5rem;
+  background-image: url("img/woman-sitting-on-chair-beside-balloon-1391580.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-2 {
+  grid-area: img-2;
+  background-image: url("img/round-gold-color-chronograph-watch-with-black-strap-at-7-36-908629.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-3 {
+  grid-area: img-3;
+  background-image: url("img/bride-decoration-fashion-flowers-265705.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-4 {
+  grid-area: img-4;
+  max-height: 10rem;
+  background-image: url("img/watermark simplu alb_mic.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-5 {
+  grid-area: img-5;
+  background-image: url("img/brown-glass-fragrance-bottle-beside-white-pearl-bracelets-949590.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-6 {
+  grid-area: img-6;
+  min-height: 31.5rem;
+  background-image: url("img/woman-standing-and-doing-pose-beside-lake-1468379.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-7 {
+  grid-area: img-7;
+  background-image: url("img/photo-of-woman-674268.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-8 {
+  grid-area: img-8;
+  background-image: url("img/make-up-equipments-212236.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  margin-top: 1.5rem;
+  border-top: 1px solid #fff;
+  padding: 1rem;
+  text-align: center;
+  align-items: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--text--color);
+  display: inline-block;
+  padding: 0 0.5rem;
+}
+
+.socialM {
+  padding-top: 1rem;
+  font-size: larger;
+}
+
+header {
+  width: 100vh;
+}
+
+.logo {
+  float: left;
+  padding: 1rem;
+}
+
+.logo img {
+  width: 30vh;
+}
+
+@media screen and (max-width: 1000px) {
+  .gridWrapper {
+    grid-template-areas: "img-1 img-1 img-2 img-3 img-3" "img-1 img-1 img-4 img-4 img-5" "img-7 img-7 img-7 img-8 img-6" "img-7 img-7 img-7 img-8 img-6";
+  }
+
+  .img-6 {
+    min-height: 15rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .gridWrapper {
+    grid-template-areas: "img-1 img-1 img-3 img-3 img-3" "img-1 img-1 img-4 img-4 img-4" "img-5 img-5 img-5 img-6 img-6" "img-7 img-7 img-7 img-6 img-6" "img-2 img-2 img-2 img-2 img-2" "img-8 img-8 img-8 img-8 img-8";
+  }
+
+  .gridWrapper a {
+    min-height: 10 rem;
+  }
+
+  .img-6 {
+    min-height: 21.5rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .gridWrapper {
+    grid-template-areas: "img-3 img-3 img-3 img-3 img-3" "img-4 img-4 img-4 img-4 img-4" "img-1 img-1 img-1 img-1 img-1" "img-6 img-6 img-6 img-6 img-6" "img-5 img-5 img-5 img-5 img-5" "img-7 img-7 img-7 img-7 img-7" "img-2 img-2 img-2 img-2 img-2" "img-8 img-8 img-8 img-8 img-8";
+  }
+
+  .gridWrapper a {
+    min-height: 10 rem;
+  }
+
+  .img-1 {
+    min-height: 10rem;
+  }
+
+  .img-6 {
+    min-height: 10 rem;
+  }
+}/*# sourceMappingURL=style.css.map */
