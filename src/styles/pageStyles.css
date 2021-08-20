@@ -1,0 +1,51 @@
+:root {
+  --primary-color:#000;
+  --secondary--color:#c5bbec;
+  --text--color:#fff;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.pageNavigation {
+  height: 100%;
+  padding: 3em 1em;
+}
+.pageNavigation .nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pageNavigation a {
+  color: var(--text--color);
+  text-decoration: none;
+}
+
+.desc {
+  text-align: justify;
+  padding-right: 1em;
+}
+
+h2 {
+  font-size: clamp(1rem, 2.5vw, 3rem);
+  padding: 2em 0;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.row .introContact {
+  padding: 2em 1em;
+}
+
+@media screen and (max-width: 770px) {
+  .pageNavigation {
+    padding: 0;
+  }
+}/*# sourceMappingURL=pageStyles.css.map */

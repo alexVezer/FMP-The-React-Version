@@ -1,0 +1,57 @@
+@import 'variables.scss';
+@import 'mixins.scss';
+
+
+// Header Styles
+
+.logo img {
+    width: 100%;
+}
+
+.pageNavigation {
+    height:100%;
+    padding: 3em 1em;
+    .nav-item {
+        @include FlexCenter(column);
+    }
+    a {
+        color: var(--text--color);
+        text-decoration: none;
+        
+    }
+    
+
+}
+
+// Service Screen Styles
+
+.desc {
+    text-align: justify;
+    padding-right: 1em;
+    
+}
+
+h2 {
+    font-size: clamp(1rem, 2.5vw, 3rem);
+    padding: 2em 0;
+
+}
+
+.gallery {
+    @include FlexCenter(column);
+}
+.row .introContact {
+    padding: 2em 1em;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+}
+
+@media screen and (max-width: 770px) {
+    .pageNavigation {
+        padding:0;
+    }
+
+}
