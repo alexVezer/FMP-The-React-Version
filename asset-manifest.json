@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/FMP-The-React-Version/static/css/main.ebe83e46.chunk.css",
+    "main.js": "/FMP-The-React-Version/static/js/main.0470d005.chunk.js",
+    "main.js.map": "/FMP-The-React-Version/static/js/main.0470d005.chunk.js.map",
+    "runtime-main.js": "/FMP-The-React-Version/static/js/runtime-main.72181196.js",
+    "runtime-main.js.map": "/FMP-The-React-Version/static/js/runtime-main.72181196.js.map",
+    "static/js/2.b411c817.chunk.js": "/FMP-The-React-Version/static/js/2.b411c817.chunk.js",
+    "static/js/2.b411c817.chunk.js.map": "/FMP-The-React-Version/static/js/2.b411c817.chunk.js.map",
+    "static/js/3.854ce8c0.chunk.js": "/FMP-The-React-Version/static/js/3.854ce8c0.chunk.js",
+    "static/js/3.854ce8c0.chunk.js.map": "/FMP-The-React-Version/static/js/3.854ce8c0.chunk.js.map",
+    "index.html": "/FMP-The-React-Version/index.html",
+    "static/css/main.ebe83e46.chunk.css.map": "/FMP-The-React-Version/static/css/main.ebe83e46.chunk.css.map",
+    "static/js/2.b411c817.chunk.js.LICENSE.txt": "/FMP-The-React-Version/static/js/2.b411c817.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/FMP-The-React-Version/static/media/woman-standing-and-doing-pose-beside-lake-1468379.794977b1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.72181196.js",
+    "static/js/2.b411c817.chunk.js",
+    "static/css/main.ebe83e46.chunk.css",
+    "static/js/main.0470d005.chunk.js"
+  ]
+}
