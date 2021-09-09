@@ -17,16 +17,16 @@ const Header = () => {
               <Nav.Link href="/services">Servicii</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="link-1">Clienti</Nav.Link>
+              <Nav.Link href="/produse" eventKey="link-1">Produse</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="/contact">Link</Nav.Link>
+              <Nav.Link href="/contact" eventKey="contact">Link</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="/despre">Despre noi</Nav.Link>
+              <Nav.Link href="/despre" eventKey="despre">Despre noi</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="/contact" >
+              <Nav.Link href="/contact" eventKey="contact" >
               <Button variant="outline-secondary">
               Contacteaza-ne!
               </Button>

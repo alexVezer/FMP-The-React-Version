@@ -13,7 +13,7 @@ class HomeScreen extends Component {
 
     render () {
         const {pages} = this.state
-        console.log(pages)
+        
 
         return (
         <div className="container">

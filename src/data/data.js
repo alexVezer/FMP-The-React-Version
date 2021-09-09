@@ -10,49 +10,49 @@ const data = {
         {
             "id":"2",
             "page":"/services",
-            "pageName":"Nuntii",
+            "pageName":"Promovare online",
             "desc":"",
             "photo":"img/round-gold-color-chronograph-watch-with-black-strap-at-7-36-908629.jpg"
         },
         {
             "id":"3",
             "page":"/services",
-            "pageName":"Botezuri",
+            "pageName":"Nunti",
             "desc":"",
             "photo":"img/bride-decoration-fashion-flowers-265705.jpg"
         },
         {
             "id":"4",
-            "page":"/services",
-            "pageName":"",
+            "page":"/contact",
+            "pageName":"Contactati-ne!",
             "desc":"",
             "photo":"img/watermark\ simplu\ alb_mic.png"
         },
         {
             "id":"5",
             "page":"/services",
-            "pageName":"",
+            "pageName":"Fotografie de obiect",
             "desc":"",
             "photo":"img/brown-glass-fragrance-bottle-beside-white-pearl-bracelets-949590.jpg"
         },
         {
             "id":"6",
             "page":"/services",
-            "pageName":"",
+            "pageName":"Albume scolare",
             "desc":"",
             "photo":"img/woman-standing-and-doing-pose-beside-lake-1468379.jpg"
         },
         {
             "id":"7",
-            "page":"/services",
-            "pageName":"",
+            "page":"/about",
+            "pageName":"Despre noi",
             "desc":"",
             "photo":"img/photo-of-woman-674268.jpg"
         },
         {
             "id":"8",
             "page":"/services",
-            "pageName":"",
+            "pageName":"Sedinte foto profesionale",
             "desc":"",
             "photo":"/img/make-up-equipments-212236.jpg"
         }
