@@ -15,10 +15,10 @@ const App = () => {
   return (
     <Router>
       
-      <Route path = '/' component={HomeScreen} exact/>
-      <Route path = '/services' component={ServicesScreen}/>
-      <Route path = '/contact' component={ContactScreen}/>
-      <Route path = '/despre' component={AboutScreen}/>
+    <Route path = {`${process.env.PUBLIC_URL}/services`} component={ServicesScreen}/>
+    <Route path = {`${process.env.PUBLIC_URL}/contact`} component={ContactScreen}/>
+    <Route path = {`${process.env.PUBLIC_URL}/despre`} component={AboutScreen}/>
+    <Route path = {`${process.env.PUBLIC_URL}/`} component={HomeScreen} exact/>
 
       <Footer/>
     </Router>

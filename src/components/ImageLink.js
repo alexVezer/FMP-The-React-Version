@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const ImageLink = ({page}) => {
     console.log(page.page)
     return (
-        <Link  to={page.page} className={`img-${page.id} photo pageLink`} >
+        <Link  to={`${process.env.PUBLIC_URL}${page.page}`} className={`img-${page.id} photo pageLink`} >
     
             <h4>{page.pageName}</h4>
         
