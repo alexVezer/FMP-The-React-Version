@@ -17,15 +17,15 @@ const ContactScreen = () => {
       <Row className="justify-content-center">
         <Col lg={8} md={6} xs={12} className="center">
           <Form className="spacing">
-            <Form.Group className="mb-3" controlId="contact.inputNameID">
+            <Form.Group className="mb-3" controlId="inputNameID">
               <Form.Label>Nume</Form.Label>
               <Form.Control type="text" placeholder="Nume" />
             </Form.Group>
-            <Form.Group className="mb-3" controlId="contact.inputMailID">
+            <Form.Group className="mb-3" controlId="inputMailID">
               <Form.Label>Email</Form.Label>
               <Form.Control type="email" placeholder="name@example.com" />
             </Form.Group>
-            <Form.Group className="mb-3" controlId="contact.ControlTextarea">
+            <Form.Group className="mb-3" controlId="ControlTextarea">
               <Form.Label>Mesaj</Form.Label>
               <Form.Control as="textarea" rows={4} />
             </Form.Group>

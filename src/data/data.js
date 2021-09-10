@@ -44,7 +44,7 @@ const data = {
         },
         {
             "id":"7",
-            "page":"/about",
+            "page":"/despre",
             "pageName":"Despre noi",
             "desc":"",
             "photo":"img/photo-of-woman-674268.jpg"

@@ -17,7 +17,7 @@ const Header = () => {
               <Nav.Link href={`${process.env.PUBLIC_URL}/services`}>Servicii</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href={`${process.env.PUBLIC_URL}/produse`} eventKey="link-1">Produse</Nav.Link>
+              <Nav.Link href={`${process.env.PUBLIC_URL}/services`} eventKey="link-1">Produse</Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link href={`${process.env.PUBLIC_URL}/contact`} eventKey="contact">Link</Nav.Link>
