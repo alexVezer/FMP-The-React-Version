@@ -8,13 +8,13 @@ const AboutScreen = () => {
         <Header/>
             <Row lg={8} md={10} sm={12} className="justify-content-md-center spacing">
             <Col className="center">
-            <Image src="/img/thumbnail.jpg" roundedCircle />
+            <Image src={`${process.env.PUBLIC_URL}/img/thumbnail.jpg`} roundedCircle />
             </Col>
             <Col className="center">
-            <Image src="/img/thumbnail.jpg" roundedCircle />
+            <Image src={`${process.env.PUBLIC_URL}/img/thumbnail.jpg`} roundedCircle />
             </Col>
             <Col className="center">
-            <Image src="/img/thumbnail.jpg" roundedCircle />
+            <Image src={`${process.env.PUBLIC_URL}/img/thumbnail.jpg`} roundedCircle />
             </Col>
             </Row>
             <Row className="justify-content-md-center">

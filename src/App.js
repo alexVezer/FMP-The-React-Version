@@ -9,6 +9,9 @@ import AboutScreen from './screens/AboutScreen';
 
 
 const App = () => {
+
+  require('dotenv').config()
+  
   return (
     <Router>
       

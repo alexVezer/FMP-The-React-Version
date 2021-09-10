@@ -7,7 +7,7 @@ const Header = () => {
         <Row >
             <Col lg={4} md={5} sm={8} xs={12} className="logo">
             <Link to="/">
-                <img src="/img/logo.png" alt="Fresh Memory Photography" >
+                <img src={`${process.env.PUBLIC_URL}/img/logo.png`} alt="Fresh Memory Photography" >
                 </img>
                 </Link>
             </Col>

@@ -7,7 +7,7 @@ const Gallery = () => {
             <CarouselItem>
             <img
             className="d-block w-100"
-            src="./img/photo-of-woman-674268.jpg"
+            src={`${process.env.PUBLIC_URL}/img/bride-decoration-fashion-flowers-265705.jpg`}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -19,7 +19,7 @@ const Gallery = () => {
             <Carousel.Item>
             <img
               className="d-block w-100"
-              src="./img/photo-of-woman-674268.jpg"
+              src={`${process.env.PUBLIC_URL}/img/photo-of-woman-674268.jpg`}
               alt="Second slide"
             />
         
@@ -31,7 +31,7 @@ const Gallery = () => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="./img/photo-of-woman-674268.jpg"
+              src={`${process.env.PUBLIC_URL}/img/photo-of-woman-674268.jpg`}
               alt="Third slide"
             />
         
