@@ -1,6 +1,6 @@
 :root {
   --primary-color:#000;
-  --secondary--color:#c5bbec;
+  --secondary--color:#6c757d;
   --text--color:#fff;
 }
 
@@ -215,7 +215,7 @@ footer a {
 }
 :root {
   --primary-color:#000;
-  --secondary--color:#c5bbec;
+  --secondary--color:#6c757d;
   --text--color:#fff;
 }
 
@@ -233,9 +233,12 @@ footer a {
   align-items: center;
   justify-content: center;
 }
-.pageNavigation a {
+.pageNavigation a.nav-link {
   color: var(--text--color);
   text-decoration: none;
+}
+.pageNavigation a.nav-link:hover {
+  color: var(--secondary--color);
 }
 
 .desc {

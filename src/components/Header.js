@@ -14,19 +14,19 @@ const Header = () => {
             <Col lg={8} md={7} sm={12}>
             <Nav className="justify-content-end pageNavigation">
             <Nav.Item>
-              <Nav.Link href={`${process.env.PUBLIC_URL}/services`}>Servicii</Nav.Link>
+              <Nav.Link href={`${process.env.PUBLIC_URL}/services`} eventKey='/sevices'>Servicii</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href={`${process.env.PUBLIC_URL}/services`}>Produse</Nav.Link>
+              <Nav.Link href={`${process.env.PUBLIC_URL}/services`} eventKey='/produse'>Produse</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href={`${process.env.PUBLIC_URL}/contact`}>Link</Nav.Link>
+              <Nav.Link href={`${process.env.PUBLIC_URL}/contact`} eventKey='/contact'>Link</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href={`${process.env.PUBLIC_URL}/despre`}>Despre noi</Nav.Link>
+              <Nav.Link href={`${process.env.PUBLIC_URL}/despre`} eventKey='/despre'>Despre noi</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href={`${process.env.PUBLIC_URL}/contact`} >
+              <Nav.Link href={`${process.env.PUBLIC_URL}/contact`} eventKey='/contact'>
               <Button variant="outline-secondary">
               Contacteaza-ne!
               </Button>

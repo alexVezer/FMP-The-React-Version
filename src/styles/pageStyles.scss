@@ -14,10 +14,12 @@
     .nav-item {
         @include FlexCenter(column);
     }
-    a {
+    a.nav-link {
         color: var(--text--color);
         text-decoration: none;
-        
+      &:hover {
+        color: var(--secondary--color);
+      }  
     }
     
 
