@@ -12,12 +12,12 @@ const Header = () => {
                 </Link>
             </Col>
             <Col lg={8} md={7} sm={12}>
-            <Nav className="justify-content-end pageNavigation" activeKey="/home">
+            <Nav className="justify-content-end pageNavigation" activeKey="/">
             <Nav.Item>
-              <Nav.Link href={`${process.env.PUBLIC_URL}/services`}>Servicii</Nav.Link>
+              <Nav.Link href={`${process.env.PUBLIC_URL}/services`} eventkey="services">Servicii</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href={`${process.env.PUBLIC_URL}/services`} eventKey="link-1">Produse</Nav.Link>
+              <Nav.Link href={`${process.env.PUBLIC_URL}/services`} eventKey="services">Produse</Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link href={`${process.env.PUBLIC_URL}/contact`} eventKey="contact">Link</Nav.Link>
